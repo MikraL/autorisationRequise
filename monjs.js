@@ -38,7 +38,6 @@
 
         if (diff3 <= 0) {
             diff2 = diff2 - 1;
-            alert('mois : ' + diff2);
             if (diff2 <= 0){
                 diff = diff - 1;
                
@@ -57,14 +56,15 @@
         else if (diff < 18){
             alert('Tu as ' + diff + ' ans');
             alert('Tiens tiens tiens, vagabon mineur, fuis !!!!'); 
+
             openInNewTab("https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif");
         }
 
         else {
             alert('Tu as ' + diff + ' ans');
             alert('Tu peux passer, bien joué Joe');
-            openInNewTab("https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif");
-        }
+            openInNewTab("./index2.html");
+        }   
         
     });
  };
